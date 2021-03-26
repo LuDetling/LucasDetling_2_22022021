@@ -31,7 +31,9 @@ body {
     border-top: solid 2px #0065FC;
 }
 
-
+.inscription {
+    font-weight: bold;
+}
 
 /*BARRE DE RECHERCHE*/
 
@@ -72,8 +74,6 @@ body {
     margin-top: 10px;
     align-items: center;
 }
-
-
 
 .filtres {
     display: flex;
@@ -129,6 +129,11 @@ body {
     width: 20px;
     text-align: center;
     color: #0065FC;
+    position: absolute;
+}
+
+.info p {
+    padding-left: 40px;
 }
 
 /*HEBERGEMENTS*/
@@ -365,6 +370,7 @@ body {
     
     .lieux_sympas {
         flex-direction: column;
+        margin: 0;
     }
     
     .box_hebergements {
@@ -377,6 +383,7 @@ body {
         width: auto;
         margin: auto;
         margin-bottom: 15px;
+        border-radius: 0;
     }
     
     .box_populaires {
@@ -683,6 +690,7 @@ body {
     
     .populaire {
         margin: auto;
+        margin-left: 0;
     }
     
     
