@@ -54,7 +54,12 @@ body {
 
 .barre_de_recherche {
     border: solid 0.1px #F2F2F2;
-    padding: 11px
+    padding: 11px;
+}
+
+.barre_de_recherche::placeholder {
+    color: #000000;
+    font-weight: bold;
 }
 
 .bouton {
