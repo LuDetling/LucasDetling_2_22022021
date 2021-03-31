@@ -565,9 +565,8 @@ body {
         margin-bottom: 15px;
     }
     
-    .article_aside {
-        width: 95%;
-        margin-bottom: 15px;
+    .image_populaire {
+        min-width: inherit;
     }
     
     .marge_footer {
