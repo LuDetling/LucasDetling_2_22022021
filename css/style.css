@@ -212,7 +212,7 @@ body {
 }
 
 .hebergement .star_grey {
-    color: grey;
+    color: #F2F2F2;
 }
 
 .box_hebergements .afficher_plus{
@@ -276,7 +276,7 @@ body {
 }
 
 .populaire .star_grey {
-    color: grey;
+    color: #F2F2F2;
 }
 
 /* ACTIVITES A MARSEILLES */
@@ -370,7 +370,7 @@ body {
     margin-right: 29%;
 }
 
-@media (max-device-width: 1530px) {
+@media (max-width: 1530px) {
     
     
     /*POPULAIRE / HEBERGEMENT*/ 
@@ -459,7 +459,7 @@ body {
     
 }
 
-@media (max-device-width: 1290px) {
+@media (max-width: 1290px) {
     
     /*HEBERGEMENT / POPULAIRE*/
     
@@ -491,7 +491,7 @@ body {
     
 }
 
-@media (max-device-width: 1130px) {
+@media (max-width: 1130px) {
     
     /*ACTIVITES MARSEILLE*/
     
@@ -511,7 +511,7 @@ body {
     }
 }
 
-@media (max-device-width: 890px) {
+@media (max-width: 890px) {
     
     
     /* BARRE DE RECHERHE*/
@@ -579,7 +579,7 @@ body {
     
 }
 
-@media (max-device-width: 480px) {
+@media (max-width: 480px) {
     
     /* HEADER */
     
@@ -800,13 +800,12 @@ body {
     }
 }
 
-@media (max-device-width: 390px){
+@media (max-width: 390px){
     
     /*POPULAIRES*/
     
     .article_aside {
         flex-direction: column;
-        justify-content: none;
     }
     
     .image_populaire {
