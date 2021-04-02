@@ -74,6 +74,8 @@ body {
     text-indent: -9999em;
 }
 
+/* Filtres */
+
 .section_filtres {
     display: flex;
     margin-top: 10px;
@@ -84,6 +86,21 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.icone_filtre {
+    display: flex;
+    align-items: center;
+}
+
+.icone_filtre i {
+    color: #0065FC;
+    background: #DEEBFF;
+    padding: 15px;
+    border-radius: 50px;
+    position: absolute; 
+    text-align: center;
+    width: 20px;
 }
 
 .section_filtres h3:first-child {
@@ -104,21 +121,6 @@ body {
 
 .filtres h3:nth-child(n+2):hover {
     color: #0065FC;
-}
-
-.icone_filtre {
-    display: flex;
-    align-items: center;
-}
-
-.icone_filtre i {
-    color: #0065FC;
-    background: #DEEBFF;
-    padding: 15px;
-    border-radius: 50px;
-    position: absolute; 
-    text-align: center;
-    width: 20px;
 }
 
 .info {
